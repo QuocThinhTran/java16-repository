@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;01_SpringMVC_Form_Hibernate&apos;" deleteContents="true" description="Delete resource &apos;01_SpringMVC_Form_Hibernate&apos;" element1="/01_SpringMVC_Form_Hibernate" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1685281502478"/>&#x0A;<refactoring comment="Delete resource &apos;01_springmvc_crud&apos;" deleteContents="true" description="Delete resource &apos;01_springmvc_crud&apos;" element1="/01_springmvc_crud" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1685436025394"/>
+</session>

@@ -1,0 +1,5 @@
+package com.springmvc.configuration;
+
+public class JpaConfig {
+
+}

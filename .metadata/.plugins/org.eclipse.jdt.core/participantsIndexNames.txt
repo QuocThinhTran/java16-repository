@@ -1,0 +1,23 @@
+INDEX VERSION 1.132
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4100337466.index
+\01_SpringMVC_Form_Hibernate\src\main\resources
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1558095694.index
+\01_SpringMVC_Crud_Customer\src\main\java
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1719396886.index
+\01_SpringMVC_UnitTest\src\main\resources
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1989162023.index
+\01_springmvc_crud\src\main\java
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3048319900.index
+\01_SpringMVC_Form_Hibernate\src\main\java
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4121239842.index
+\01_springmvc_crud\src\main\java
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3840222807.index
+\01_SpringMVC_Crud_Customer\src\main\java
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2825582939.index
+\01_SpringMVC_Crud_Customer\src\main\java
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1001730526.index
+\01_springmvc_crud\src\main\java
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1691236055.index
+\01_springmvc_crud\src\main\java
+D:\SPRING MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\213306104.index
+\01_SpringMVC_Crud_Customer\src\main\java

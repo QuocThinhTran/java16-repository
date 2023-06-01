@@ -1,0 +1,23 @@
+package com.springmvc.service;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.springmvc.dao.CustomerRepository;
+import com.springmvc.entity.Customer;
+
+@Service
+@Transactional
+public class CustomerService {
+
+	@Autowired
+	private CustomerRepository customerRepository;
+	
+	public List<Customer> listAll() {
+		return (List<Customer>) customerRepository.findAll();
+	}
+}
