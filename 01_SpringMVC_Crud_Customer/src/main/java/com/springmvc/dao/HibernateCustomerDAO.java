@@ -16,6 +16,7 @@ import com.springmvc.entity.Customer;
 public class HibernateCustomerDAO implements CustomerDAO {
 	
 	private static final String GET_ALL_LIST_CUSTOMERS = "SELECT * FROM CUSTOMER";
+	private static final String SEARCH_NAME_OR_ADDRESS = "FROM Customer WHERE FULL_NAME LIKE :keyword OR address LIKE :keyword";
 
 	@Autowired
 	private SessionFactory sessionFactory;
@@ -31,7 +32,7 @@ public class HibernateCustomerDAO implements CustomerDAO {
 	@Transactional
 	public List<Customer> searchCustomersByName(String keyword) {
 	    Session session = sessionFactory.getCurrentSession();
-	    Query<Customer> query = session.createQuery("FROM Customer WHERE FULL_NAME LIKE :keyword OR address LIKE :keyword", Customer.class);
+	    Query<Customer> query = session.createQuery(SEARCH_NAME_OR_ADDRESS, Customer.class);
 	    query.setParameter("keyword", "%" + keyword + "%");
 	    return query.getResultList();
 	}

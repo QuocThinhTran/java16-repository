@@ -40,10 +40,13 @@
 						<td>${customer.fullName}</td>
 						<td>${customer.email}</td>
 						<td>${customer.address}</td>
-						<td><a href="${contextPath}/customer/edit?id=${customer.id}"
-							class=" btn btn-info btn-sm">Edit</a> <a
-							href="${contextPath}/customer/delete?id=${customer.id}"
-							class=" btn btn-info btn-sm" onclick="return confirmDelete()">Delete</a></td>
+						<td>
+						   <a href="${contextPath}/customer/edit?id=${customer.id}"
+							  class=" btn btn-info btn-sm">Edit</a>
+							    
+						  <a  href="${contextPath}/customer/delete?id=${customer.id}"
+							  class=" btn btn-info btn-sm" onclick="return confirmDelete()">Delete</a>
+						</td>
 					</tr>
 				</c:forEach>
 			</tbody>

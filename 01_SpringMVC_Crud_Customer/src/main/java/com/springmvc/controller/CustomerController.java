@@ -49,7 +49,9 @@ public class CustomerController {
 	}
 	
 	@PostMapping("/save")
-	public String saveCustomers(@Valid @ModelAttribute("customer") Customer customer, BindingResult bindingResult, ModelMap modelMap) {
+	public String saveCustomers(@Valid @ModelAttribute("customer") Customer customer, 
+						                BindingResult bindingResult, 
+						                ModelMap modelMap) {
 		if (bindingResult.hasErrors()) {
 	        return ADD_CUSTOMER;
 	    }
@@ -68,7 +70,6 @@ public class CustomerController {
 	@PostMapping("/edit")
 	public String editCustomer(@ModelAttribute("customer") Customer customer) {
 	    customerService.updateCustomer(customer);
-
 	    return REDIRECT_CUSTOMER;
 	}
 

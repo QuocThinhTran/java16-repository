@@ -6,16 +6,26 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="hibernate-validator"/>
 		<list key="findhistory">
+			<item value="hibernate-validator"/>
+			<item value=" &lt;hibernate-validator.version&gt;8.0.0.Final&lt;/hibernate-validator.version&gt;"/>
+			<item value="spring-boot-hibernate-validator"/>
+			<item value="validator"/>
+			<item value="spring-boot-starter-actuator"/>
+			<item value="spring-boot"/>
+			<item value="actuator"/>
+			<item value="devtools"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="762"/>
-		<item key="DIALOG_Y_ORIGIN" value="217"/>
+		<item key="DIALOG_X_ORIGIN" value="1079"/>
+		<item key="DIALOG_Y_ORIGIN" value="371"/>
 		<item key="DIALOG_WIDTH" value="414"/>
-		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_HEIGHT" value="387"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
