@@ -1,4 +1,4 @@
-package thread_interrupt;
+package thread_interrupt_method;
 
 import utils.ThreadException;
 

@@ -1,6 +1,5 @@
 package thread_flag;
 
-import thread_interrupt.ThreadInterruptExample;
 import utils.ThreadException;
 
 public class ThreadFlagExample extends Thread {
